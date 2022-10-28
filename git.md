@@ -26,13 +26,18 @@ git show nombre_de_archivo.extension    // Nos muestra el nombre del ultimo comm
 
 git diff (idCommit) (idCommit)          // Nos permite comparar las diferentes versiones de commit.
 
-git merge                               // Permite unir las ramas que vayamos creando, ya sean de (pruebas//development) o (errores//hotfixin). 
-
 git reset                               // Nos permite volver en el tiempo pero ya no podremos regresar a los recientes porque los borra.
     git reset --soft                        // Borramos todos el historial y los registros ed git pero mantendremos los datos que tengamos en stagin.
     git reset --hard                    // BORRA TODOOO, NO RESPETA NADA
     git reset HEAD                      // Permite sacar a los archivos del STAGIN, por si no queremos que estos se añadan al ultimo commit.
 
+git clone URL                           // Permite clonar un proyecto desde un repositorio remoto
+
+git fetch                               // Trae al repositorio local pero no lo copia en los archivos.
+
+git merge                               // Permite unir las ramas que vayamos creando, ya sean de (pruebas//development) o (errores//hotfixin). 
+
+git pull                                // Trae los cambios del remoto al repo local (hace lo que fetch y merge pero en un solo comando).
 -->
 
 Comandos linux:
