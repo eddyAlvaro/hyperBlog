@@ -12,7 +12,7 @@ comando para generar una llave publica y privada.
 Comando que nos permite verificar el funcionamiento de las llaves.
     eval $(ssh-agent -s)
 
-Vincula nuestra llave privada a nuestro servidor, sistema.
+Agregar la llave privada a nuestro servidor, sistema.
     ssh-add ~/.ssh/id_rsa
 
 
@@ -58,6 +58,7 @@ git branch                              // Nos muestra las ramas y nos dice dond
 
 git remote add origin <URL del remoto>  // Permite añadir el repositorio remoto al local
 
+git remote -v                           // Nos permite ver la url de nuestro repo remoto
 -->
 <!-- 
     Solucion cuando no me deja hacer pull del master remoto.
