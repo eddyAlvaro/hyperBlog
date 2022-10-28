@@ -16,7 +16,7 @@ git commit -am                          // JUnta los comandos add y commit en un
 
 git log nombre_de_archivos.extensión    // histórico de cambios con detalles
 
-git push                                // Envía a otro repositorio remoto lo que estamos haciendo
+git push origin master                  // Envía al repositorio remoto lo que estamos haciendo en local
 
 git pull                                // Traer repositorio remoto
 
