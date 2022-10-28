@@ -20,13 +20,18 @@ git pull                                // Traer repositorio remoto
 
 git checkout                            // Nos permite traer los cambios desde diferentes versiones.
 
-git rm --cached archivo.extensión       // Remueve el o los archivos guardados en ram cambiando su estado a antes de usar ("git add").
+git rm --cached archivo.extensión       // Remueve el o los archivos del stagin y del repo local cambiando su estado a antes de usar ("git add").
 
 git show nombre_de_archivo.extension    // Nos muestra el nombre del ultimo commit con sus modificaciones.
 
 git diff (idCommit) (idCommit)          // Nos permite comparar las diferentes versiones de commit.
 
 git merge                               // Permite unir las ramas que vayamos creando, ya sean de (pruebas//development) o (errores//hotfixin). 
+
+git reset                               // Nos permite volver en el tiempo pero ya no podremos regresar a los recientes porque los borra.
+    git reset --soft                        // Borramos todos el historial y los registros ed git pero mantendremos los datos que tengamos en stagin.
+    git reset --hard                    // BORRA TODOOO, NO RESPETA NADA
+    git reset HEAD                      // Permite sacar a los archivos del STAGIN, por si no queremos que estos se añadan al ultimo commit.
 
 -->
 
