@@ -2,6 +2,19 @@ COmandos:
 git config  // Nos permite ver todas las configuraciones de git
 git config --list: muestra la lista de configuración de nuestro git
 git config --list --show-origin: rutas de acceso a la configuración de git
+git config --global user.email "<orreo>"
+
+LLAVE PUBLICA Y PRIVADA
+
+comando para generar una llave publica y privada.
+    ssh-keygen -t rsa -b 4096 -C "e.alvaro.arenas@gmail.com"
+
+Comando que nos permite verificar el funcionamiento de las llaves.
+    eval $(ssh-agent -s)
+
+Vincula nuestra llave privada a nuestro servidor, sistema.
+    ssh-add ~/.ssh/id_rsa
+
 
 <!-- 
 git init                                // Inicializar el repositorio
@@ -43,7 +56,7 @@ git pull                                // Trae los cambios del remoto al repo l
 
 git branch                              // Nos muestra las ramas y nos dice donde estamos.
 
-git remote add origin <URL del remoto>  // Permite traer el repositorio remoto al local
+git remote add origin <URL del remoto>  // Permite añadir el repositorio remoto al local
 
 -->
 <!-- 
