@@ -40,6 +40,8 @@ git fetch                               // Trae al repositorio local pero no lo 
 git merge                               // Permite unir las ramas que vayamos creando, ya sean de (pruebas//development) o (errores//hotfixin). 
 
 git pull                                // Trae los cambios del remoto al repo local (hace lo que fetch y merge pero en un solo comando).
+
+
 -->
 
 Comandos linux:
