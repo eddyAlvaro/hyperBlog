@@ -43,6 +43,16 @@ git pull                                // Trae los cambios del remoto al repo l
 
 git branch                              // Nos muestra las ramas y nos dice donde estamos.
 -->
+<!-- 
+    Solucion cuando no me deja hacer pull del master remoto.
+
+        --git pull origin master --rebase
+        git config --global pull.rebase true
+
+
+https://stackoverflow.com/questions/13106179/fatal-not-possible-to-fast-forward-aborting
+ -->
+
 
 Comandos linux:
 
