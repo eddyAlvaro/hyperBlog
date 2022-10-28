@@ -58,7 +58,9 @@ git branch                              // Nos muestra las ramas y nos dice dond
 
 git remote add origin <URL del remoto>  // Permite añadir el repositorio remoto al local
 
-git remote -v                           // Nos permite ver la url de nuestro repo remoto
+git remote -v                           // Nos permite ver la url de nuestro repo remoto.
+
+git remote set-url origin <SSH>         // Nos permite cambiar la direccion remota
 -->
 <!-- 
     Solucion cuando no me deja hacer pull del master remoto.
