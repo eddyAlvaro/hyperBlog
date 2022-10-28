@@ -10,7 +10,9 @@ git status                              // Me muestra el estado de todos los arc
 
 git add                                 // Nos permite validar la informacion en el stagin(memoria ram).
 
-git commit                              // Nos permite guardar los archivos añadidos en el repositorio local.(por defecto se llama MASTER).
+git commit -m                           // Nos permite guardar los archivos añadidos en el repositorio local.(por defecto se llama MASTER).
+
+git commit -am                          // JUnta los comandos add y commit en uno, solo funciona con archivos previamente añadidos a stagin.
 
 git log nombre_de_archivos.extensión    // histórico de cambios con detalles
 
