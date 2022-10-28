@@ -67,9 +67,18 @@ git remote add origin <URL del remoto>  // Permite añadir el repositorio remoto
 
 git remote -v                           // Nos permite ver la url de nuestro repo remoto.
 
-git remote set-url origin <SSH>         // Nos permite cambiar la direccion del repo remoto
--->
+git remote set-url origin <SSH>         // Nos permite cambiar la direccion del repo remoto.
 
+git tag                                 // Nos muestra los tags creados.
+
+git tag -a <nombreTag> -m "mensaje" <hash>  // Forma de crear un tag.
+
+git show-ref --tag                      // Nos musetra a que commits estan asignados los tags que creemos.
+
+git push origin :refs/tags/<nomberTag>  // Forma de eliminar tags en github.
+
+-->
+**Los tags son utiles en el sitio web, no lo son mucho en local.
 <!-- 
     Solucion cuando no me deja hacer pull del master remoto.
 
