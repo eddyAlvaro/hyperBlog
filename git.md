@@ -16,6 +16,13 @@ Agregar la llave privada a nuestro servidor, sistema.
     ssh-add ~/.ssh/id_rsa
 
 
+<!-- Forma de crear un alias a un comando que nos muestra la historia de commits de forma grafica.
+
+    alias arbol="git log --all --graph --decorate --oneline" 
+
+-->
+
+
 <!-- 
 git init                                // Inicializar el repositorio
 
@@ -62,6 +69,7 @@ git remote -v                           // Nos permite ver la url de nuestro rep
 
 git remote set-url origin <SSH>         // Nos permite cambiar la direccion del repo remoto
 -->
+
 <!-- 
     Solucion cuando no me deja hacer pull del master remoto.
 
