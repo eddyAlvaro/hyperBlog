@@ -42,6 +42,8 @@ git merge                               // Permite unir las ramas que vayamos cr
 git pull                                // Trae los cambios del remoto al repo local (hace lo que fetch y merge pero en un solo comando).
 
 git branch                              // Nos muestra las ramas y nos dice donde estamos.
+
+git branch <nombreRama>                 // Permite crear una rama añadiendole un nombre
 -->
 
 Comandos linux:
