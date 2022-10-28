@@ -42,6 +42,9 @@ git merge                               // Permite unir las ramas que vayamos cr
 git pull                                // Trae los cambios del remoto al repo local (hace lo que fetch y merge pero en un solo comando).
 
 git branch                              // Nos muestra las ramas y nos dice donde estamos.
+
+git remote add origin <URL del remoto>  // Permite traer el repositorio remoto al local
+
 -->
 <!-- 
     Solucion cuando no me deja hacer pull del master remoto.
