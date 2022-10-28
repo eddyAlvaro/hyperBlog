@@ -60,7 +60,7 @@ git remote add origin <URL del remoto>  // Permite añadir el repositorio remoto
 
 git remote -v                           // Nos permite ver la url de nuestro repo remoto.
 
-git remote set-url origin <SSH>         // Nos permite cambiar la direccion remota
+git remote set-url origin <SSH>         // Nos permite cambiar la direccion del repo remoto
 -->
 <!-- 
     Solucion cuando no me deja hacer pull del master remoto.
