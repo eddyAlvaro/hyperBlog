@@ -40,7 +40,7 @@ git push origin master                  // Envía al repositorio remoto lo que e
 
 git pull                                // Traer repositorio remoto
 
-git checkout                            // Nos permite traer los cambios desde diferentes versiones.
+git checkout                            // Nos permite cambiar entre las ramas que tengamos.
 
 git rm --cached archivo.extensión       // Remueve el o los archivos del stagin y del repo local cambiando su estado a antes de usar ("git add").
 
@@ -77,6 +77,8 @@ git show-ref --tag                      // Nos musetra a que commits estan asign
 
 git push origin :refs/tags/<nomberTag>  // Forma de eliminar tags en github.
 
+git clone <URL repo>                    / Nos permite clonar un repositorio publico.
+
 -->
 **Los tags son utiles en el sitio web, no lo son mucho en local.
 <!-- 
@@ -88,6 +90,15 @@ git push origin :refs/tags/<nomberTag>  // Forma de eliminar tags en github.
 
 https://stackoverflow.com/questions/13106179/fatal-not-possible-to-fast-forward-aborting
  -->
+
+<!-- 
+
+    -Para poder utilizar el comando push en un repositorio remoto clonado, primero necesito permisos.
+    -Los permisos me los tiene que dar el dueño del repositorio remoto clonado.
+    -Para que me pueda dar permisos, el necesita mi username de github o mi correo de github.
+    -En el caso del correo, requiero hacer mi correo publico, pero en el caso de que no queramos hacerlo publico, bastara con el username de git para dar acceso al repositorio.
+
+-->
 
 
 Comandos linux:
